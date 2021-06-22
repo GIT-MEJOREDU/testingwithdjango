@@ -1,3 +1,6 @@
+Fuente del proyecto: https://www.youtube.com/watch?v=qJPLFDtEi1I
+--vamos en el minuto 14
+
 Crear carpeta para el proyecto
     /Users/LOGIMAC/Trabajo/MEJOREDU/Docker/djangotesting
 
@@ -80,3 +83,54 @@ Se configura el proyecto con el repositorio GitHub "GIT-MEJOREDU/testingwithdjan
 
 		se agrega el contenido del siguiente link, que es un template para el archivo .gitignore
 			https://www.toptal.com/developers/gitignore/api/django
+
+	Se agregan todos los archivos
+
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting % git add .               
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting %
+
+	Se aplica commit
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting % git commit -m "First commit"
+		[master (root-commit) 3620c21] First commit
+		15 files changed, 454 insertions(+)
+		create mode 100644 .gitignore
+		create mode 100644 blog/__init__.py
+		create mode 100644 blog/admin.py
+		create mode 100644 blog/apps.py
+		create mode 100644 blog/migrations/__init__.py
+		create mode 100644 blog/models.py
+		create mode 100644 blog/tests.py
+		create mode 100644 blog/views.py
+		create mode 100644 core/__init__.py
+		create mode 100644 core/asgi.py
+		create mode 100644 core/settings.py
+		create mode 100644 core/urls.py
+		create mode 100644 core/wsgi.py
+		create mode 100755 manage.py
+		create mode 100644 proceso.txt
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting %
+
+	Se crea la rama main 
+
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting % git branch -M main
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting %
+
+	Conectamos nuestro proyecto con el repositorio gitHub
+
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting % git remote add origin https://github.com/GIT-MEJOREDU/testingwithdjango.git
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting %
+
+	Se aplica push al repositorio en la rama main 
+
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting % git push -u origin main
+		Enumerating objects: 18, done.
+		Counting objects: 100% (18/18), done.
+		Delta compression using up to 8 threads
+		Compressing objects: 100% (16/16), done.
+		Writing objects: 100% (18/18), 5.97 KiB | 5.97 MiB/s, done.
+		Total 18 (delta 1), reused 0 (delta 0)
+		remote: Resolving deltas: 100% (1/1), done.
+		To https://github.com/GIT-MEJOREDU/testingwithdjango.git
+		* [new branch]      main -> main
+		Branch 'main' set up to track remote branch 'main' from 'origin'.
+		(venv) LOGIMAC@MacBook-Pro-de-Isidro djangotesting %
